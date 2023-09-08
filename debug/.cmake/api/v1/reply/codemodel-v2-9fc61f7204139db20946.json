@@ -1,0 +1,633 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						8,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-Debug-5d7253e881f85c3be130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "debug/_deps/sdl2-src",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "_deps/sdl_image-build",
+					"jsonFile" : "directory-_deps.sdl_image-build-Debug-f921119a33d638911b3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "debug/_deps/sdl_image-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core-Debug-543c5ad42a6048e2e356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "editor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-editor-Debug-da33edcb48209062e459.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "editor",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/doctest-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.doctest-build-Debug-30b22127c89de65ec5d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "debug/_deps/doctest-src",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/format.cmake-build",
+					"jsonFile" : "directory-_deps.format.cmake-build-Debug-2ff36f1bc65aaee52787.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "debug/_deps/format.cmake-src",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						10,
+						11,
+						15,
+						16,
+						17,
+						19
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/catchthecat",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.catchthecat-Debug-b538edae2a57302e21cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/catchthecat",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples/chess",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.chess-Debug-fbb1f6c2f8057b25a11d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/chess",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "examples/flocking",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.flocking-Debug-b6a8fb85d211714a1d46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/flocking",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "examples/hideandseeksquared",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hideandseeksquared-Debug-05f49d75ebf682bedb1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/hideandseeksquared",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "examples/life",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.life-Debug-475fa995ef09d08c183c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/life",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "examples/maze",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.maze-Debug-13a37f823c374a87d6dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/maze",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "examples/scenario",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.scenario-Debug-c1138ff0b8eb94a54db7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "examples/scenario",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-cebef39597d9b13ed95a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 4,
+					"source" : "debug/_deps/glm-src"
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-151eb01309d7cb5338ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 4,
+					"source" : "debug/_deps/glm-src/glm"
+				},
+				{
+					"build" : "_deps/cpmlicenses.cmake-build",
+					"jsonFile" : "directory-_deps.cpmlicenses.cmake-build-Debug-3f058dbd9b8c8e031bcb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "debug/_deps/cpmlicenses.cmake-src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						18
+					],
+					"name" : "MoBaGEn",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						24,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "doctest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16,
+						17
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "CoreTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-CoreTests-Debug-a3f829787c82d6337f01.json",
+					"name" : "CoreTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IMGUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IMGUI-Debug-bc25da27cad3c0e1b599.json",
+					"name" : "IMGUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-Debug-2ce6150d1af180ef8ee1.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@6b7ccc8d74ccd70fd666",
+					"jsonFile" : "target-SDL2_image-Debug-d8a9cf18f8ffc2e3351d.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-Debug-3299df6706571d8dd6a0.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "catchthecat::@1010855f606b4ba2dcb8",
+					"jsonFile" : "target-catchthecat-Debug-faedd33d19f87fda2b47.json",
+					"name" : "catchthecat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "check-clang-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-check-clang-format-Debug-93eefbf06f5c1ad96817.json",
+					"name" : "check-clang-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "check-cmake-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-check-cmake-format-Debug-b99fd5acc1c95de1581b.json",
+					"name" : "check-cmake-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "check-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-check-format-Debug-c4be57de25f11c241f4c.json",
+					"name" : "check-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "chess::@796d514db5e48047cff6",
+					"jsonFile" : "target-chess-Debug-416a84c028edc2eb7706.json",
+					"name" : "chess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "clang-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-clang-format-Debug-ab4020395f4b57097138.json",
+					"name" : "clang-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cmake-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-cmake-format-Debug-10f6258e67b90aab256e.json",
+					"name" : "cmake-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "core::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core-Debug-4674d87a1968b1503bfb.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "doctest_with_main::@de8c2d1415f8a28c2e63",
+					"jsonFile" : "target-doctest_with_main-Debug-f1f645f323b3c607e0ae.json",
+					"name" : "doctest_with_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "editor::@ed37844f285895dce70e",
+					"jsonFile" : "target-editor-Debug-09356ff33fa8e28a12df.json",
+					"name" : "editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fix-clang-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-fix-clang-format-Debug-e5ec78ba648cc220fc25.json",
+					"name" : "fix-clang-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fix-cmake-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-fix-cmake-format-Debug-11db60b85ebe77a1cada.json",
+					"name" : "fix-cmake-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fix-format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-fix-format-Debug-ea7ee97e4a70d1651dd7.json",
+					"name" : "fix-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "flocking::@20618fd8b2c852a1ed99",
+					"jsonFile" : "target-flocking-Debug-4742f60c0eb800808a5b.json",
+					"name" : "flocking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "format::@a7f3a6eb0bd8f9ccc3e6",
+					"jsonFile" : "target-format-Debug-72f889d3e279fd0e87b6.json",
+					"name" : "format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hideandseek::@dd13ac86f66045e3e8b3",
+					"jsonFile" : "target-hideandseek-Debug-5d26df97ebab66249208.json",
+					"name" : "hideandseek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "life::@80d7c129fe74961ae126",
+					"jsonFile" : "target-life-Debug-c53cbe4b2c5ee19e7fb0.json",
+					"name" : "life",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "maze::@c03cf923b3772045ee14",
+					"jsonFile" : "target-maze-Debug-8f1bd41bbc029113482a.json",
+					"name" : "maze",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "scenario::@353741d804b74cebbf3d",
+					"jsonFile" : "target-scenario-Debug-f41d28dc72471b8f6cbf.json",
+					"name" : "scenario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-Debug-3da0b9ccc28e1e8ac9fa.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-Debug-f40f6e65cde9df4df9ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug",
+		"source" : "C:/Users/samuel.barnett/Documents/repos/Mobagen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

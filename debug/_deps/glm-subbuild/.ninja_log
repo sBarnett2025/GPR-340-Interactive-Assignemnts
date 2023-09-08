@@ -1,0 +1,21 @@
+# ninja log v5
+0	38	7158985606184443	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	33e611f9b2dfb380
+0	38	7158985606184443	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	33e611f9b2dfb380
+39	4061	7158985646401227	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	f05584923f35e625
+39	4061	7158985646401227	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	f05584923f35e625
+4061	5148	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	b642137f9d65a82b
+4061	5148	0	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	b642137f9d65a82b
+5148	5182	7158985657616539	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	64f25e1239835cea
+5148	5182	7158985657616539	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	64f25e1239835cea
+5182	5215	7158985657944805	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	1a6680a7e95a8f62
+5182	5215	7158985657944805	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	1a6680a7e95a8f62
+5215	5251	7158985658300541	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	cadf81f0e7939b8
+5215	5251	7158985658300541	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	cadf81f0e7939b8
+5251	5284	7158985658631677	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c33674e81a5ed525
+5251	5284	7158985658631677	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c33674e81a5ed525
+5284	5317	7158985658970012	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	db122573a48affbb
+5284	5317	7158985658970012	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	db122573a48affbb
+5317	5361	7158985659410623	CMakeFiles/glm-populate-complete	b0dcfcf3f1d454a3
+5317	5361	7158985659410623	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	b0dcfcf3f1d454a3
+5317	5361	7158985659410623	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	b0dcfcf3f1d454a3
+5317	5361	7158985659410623	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	b0dcfcf3f1d454a3

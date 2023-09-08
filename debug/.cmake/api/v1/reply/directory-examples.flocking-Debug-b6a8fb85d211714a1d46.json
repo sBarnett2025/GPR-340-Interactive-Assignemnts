@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/flocking/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/flocking",
+			"paths" : 
+			[
+				"examples/flocking/behaviours/AlignmentRule.h",
+				"examples/flocking/behaviours/BoundedAreaRule.h",
+				"examples/flocking/behaviours/CohesionRule.h",
+				"examples/flocking/behaviours/FlockingRule.h",
+				"examples/flocking/behaviours/MouseInfluenceRule.h",
+				"examples/flocking/behaviours/SeparationRule.h",
+				"examples/flocking/behaviours/WindRule.h",
+				"examples/flocking/gameobjects/Boid.h",
+				"examples/flocking/gameobjects/Pacticle.h",
+				"examples/flocking/gameobjects/World.h",
+				"examples/flocking/utils/ImGuiExtra.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/flocking",
+		"source" : "examples/flocking"
+	}
+}

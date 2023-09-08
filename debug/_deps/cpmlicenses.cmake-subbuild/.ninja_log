@@ -1,0 +1,21 @@
+# ninja log v5
+0	32	7158985660709487	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-mkdir	2b8976e8fc3d520f
+0	32	7158985660709487	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-mkdir	2b8976e8fc3d520f
+32	1062	7158985671018795	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-download	72b086479f6836c9
+32	1062	7158985671018795	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-download	72b086479f6836c9
+1063	1153	0	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-update	fdaa47c87acaebf6
+1063	1153	0	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-update	fdaa47c87acaebf6
+1153	1184	7158985672227018	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-patch	6992fb47fb96c22d
+1153	1184	7158985672227018	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-patch	6992fb47fb96c22d
+1184	1215	7158985672536855	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-configure	119f411751189c3e
+1184	1215	7158985672536855	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-configure	119f411751189c3e
+1215	1247	7158985672867625	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-build	82580052b1b543ff
+1215	1247	7158985672867625	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-build	82580052b1b543ff
+1247	1278	7158985673168816	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-install	da602ad552ef66b9
+1247	1278	7158985673168816	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-install	da602ad552ef66b9
+1278	1309	7158985673485183	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-test	880242bfa29c5df7
+1278	1309	7158985673485183	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-test	880242bfa29c5df7
+1309	1350	7158985673896402	CMakeFiles/cpmlicenses.cmake-populate-complete	ed84ebcb2126fd81
+1309	1350	7158985673896402	cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-done	ed84ebcb2126fd81
+1309	1350	7158985673896402	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/CMakeFiles/cpmlicenses.cmake-populate-complete	ed84ebcb2126fd81
+1309	1350	7158985673896402	C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-done	ed84ebcb2126fd81

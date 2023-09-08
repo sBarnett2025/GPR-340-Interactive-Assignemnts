@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/test/CoreTests_tests-b858cb2.cmake")
+  include("C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/test/CoreTests_tests-b858cb2.cmake")
+else()
+  add_test(CoreTests_NOT_BUILT-b858cb2 CoreTests_NOT_BUILT-b858cb2)
+endif()

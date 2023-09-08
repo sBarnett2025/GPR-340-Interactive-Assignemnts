@@ -1,0 +1,49 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/maze/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/maze",
+			"paths" : 
+			[
+				"examples/maze/MazeGeneratorBase.h",
+				"examples/maze/Node.h",
+				"examples/maze/World.h",
+				"examples/maze/generators/HuntAndKillExample.h",
+				"examples/maze/generators/PrimExample.h",
+				"examples/maze/generators/RecursiveBacktrackerExample.h",
+				"examples/maze/voronoi.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/maze",
+		"source" : "examples/maze"
+	}
+}

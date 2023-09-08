@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/life/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/life",
+			"paths" : 
+			[
+				"examples/life/GameOfLifeTileSetEnum.h",
+				"examples/life/Manager.h",
+				"examples/life/RuleBase.h",
+				"examples/life/World.h",
+				"examples/life/rules/HexagonGameOfLife.h",
+				"examples/life/rules/JohnConway.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/life",
+		"source" : "examples/life"
+	}
+}

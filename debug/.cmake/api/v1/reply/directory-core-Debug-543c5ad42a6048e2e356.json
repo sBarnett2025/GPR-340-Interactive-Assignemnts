@@ -1,0 +1,91 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/core.lib"
+			],
+			"targetId" : "core::@57760688d1f824db5d9c",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/core",
+			"paths" : 
+			[
+				"core/Polygon.h",
+				"core/Random.h",
+				"core/Texture.h",
+				"core/WebRequest.h",
+				"core/Window.h",
+				"core/datastructures/Grid2D.h",
+				"core/datastructures/Tree.h",
+				"core/datastructures/concepts.h",
+				"core/engine/Engine.h",
+				"core/engine/EngineForwards.h",
+				"core/engine/EngineSettings.h",
+				"core/error/NotImplemented.h",
+				"core/math/ColorT.h",
+				"core/math/Point2D.h",
+				"core/math/Vector2.h",
+				"core/math/Vector3.h",
+				"core/math/Vector4.h",
+				"core/memory/Memory.h",
+				"core/scene/Behaviour.h",
+				"core/scene/Component.h",
+				"core/scene/GameObject.h",
+				"core/scene/HideFlags.h",
+				"core/scene/Object.h",
+				"core/scene/Scene.h",
+				"core/scene/SceneForwards.h",
+				"core/scene/ScriptableObject.h",
+				"core/scene/ScriptedBehaviour.h",
+				"core/scene/SendMessageOptions.h",
+				"core/scene/Transform.h",
+				"core/script/Script.h",
+				"core/script/ScriptManager.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core",
+		"source" : "core"
+	}
+}

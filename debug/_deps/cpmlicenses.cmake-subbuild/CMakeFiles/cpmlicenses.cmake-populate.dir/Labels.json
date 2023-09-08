@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/CMakeFiles/cpmlicenses.cmake-populate"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/CMakeFiles/cpmlicenses.cmake-populate.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/CMakeFiles/cpmlicenses.cmake-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/cpmlicenses.cmake-subbuild/cpmlicenses.cmake-populate-prefix/src/cpmlicenses.cmake-populate-stamp/cpmlicenses.cmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpmlicenses.cmake-populate"
+		],
+		"name" : "cpmlicenses.cmake-populate"
+	}
+}

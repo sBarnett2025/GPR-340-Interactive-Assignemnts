@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/scenario/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/scenario",
+			"paths" : 
+			[
+				"examples/scenario/FastNoiseLite.h",
+				"examples/scenario/GeneratorBase.h",
+				"examples/scenario/Manager.h",
+				"examples/scenario/PerlinNoise.hpp",
+				"examples/scenario/generators/ParticleGenerator.h",
+				"examples/scenario/generators/RandomGenerator.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/scenario",
+		"source" : "examples/scenario"
+	}
+}

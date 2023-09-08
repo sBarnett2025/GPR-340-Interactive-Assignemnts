@@ -1,0 +1,55 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/chess/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/chess",
+			"paths" : 
+			[
+				"examples/chess/Heuristics.h",
+				"examples/chess/Manager.h",
+				"examples/chess/Search.h",
+				"examples/chess/WorldState.h",
+				"examples/chess/WorldStateFwd.h",
+				"examples/chess/pieces/Bishop.h",
+				"examples/chess/pieces/King.h",
+				"examples/chess/pieces/Knight.h",
+				"examples/chess/pieces/Pawn.h",
+				"examples/chess/pieces/PieceSvg.h",
+				"examples/chess/pieces/Pieces.h",
+				"examples/chess/pieces/Queen.h",
+				"examples/chess/pieces/Rook.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/chess",
+		"source" : "examples/chess"
+	}
+}

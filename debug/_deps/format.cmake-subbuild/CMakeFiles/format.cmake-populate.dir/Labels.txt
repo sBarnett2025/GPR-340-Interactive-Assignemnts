@@ -1,0 +1,14 @@
+# Target labels
+ format.cmake-populate
+# Source files and their labels
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate-complete.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-build.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-configure.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-download.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-install.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-mkdir.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-patch.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-test.rule
+C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-update.rule
