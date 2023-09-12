@@ -4,21 +4,25 @@
 #include "engine/Engine.h"
 
 Vector2f SeparationRule::computeForce(const std::vector<Boid*>& neighborhood, Boid* boid) {
-  // Try to avoid boids too close
-  Vector2f separatingForce = Vector2f::zero();
+  int flockmates = 0;
+  if (!neighborhood.empty())
+  {
+    for (auto neighbor: neighborhood){
+      auto diff = boid->getPosition() - neighbor->getPosition();
+      auto distance = diff.getMagnitude();
+      if (distance < desiredMinimalDistance)
+      {
+        flockmates++;
+        auto hat = diff.normalized();
+        auto force = hat / distance;
+        
+      }
 
-  //    float desiredDistance = desiredMinimalDistance;
-  //
-  //    // todo: implement a force that if neighbor(s) enter the radius, moves the boid away from it/them
-  //    if (!neighborhood.empty()) {
-  //        Vector2f position = boid->transform.position;
-  //        int countCloseFlockmates = 0;
-  //        // todo: find and apply force only on the closest mates
-  //    }
+    }
+  }
 
-  separatingForce = Vector2f::normalized(separatingForce);
 
-  return separatingForce;
+
 }
 
 bool SeparationRule::drawImguiRuleExtra() {

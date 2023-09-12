@@ -194,15 +194,15 @@
 	[
 		{
 			"backtrace" : 3,
+			"id" : "SDL2-static::@45bd952f1071c035638d"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "IMGUI::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
 			"id" : "SDL2_image::@6b7ccc8d74ccd70fd666"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "SDL2-static::@45bd952f1071c035638d"
 		}
 	],
 	"id" : "core::@57760688d1f824db5d9c",

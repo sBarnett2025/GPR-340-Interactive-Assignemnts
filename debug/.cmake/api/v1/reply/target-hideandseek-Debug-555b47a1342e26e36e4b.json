@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/maze.exe"
+			"path" : "bin/hideandseek.exe"
 		},
 		{
-			"path" : "bin/maze.pdb"
+			"path" : "bin/hideandseek.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -22,7 +22,7 @@
 		],
 		"files" : 
 		[
-			"examples/maze/CMakeLists.txt",
+			"examples/hideandseeksquared/CMakeLists.txt",
 			"CMakeLists.txt",
 			"core/CMakeLists.txt",
 			"debug/_deps/sdl2-src/CMakeLists.txt",
@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -102,7 +102,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 25,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -173,22 +173,22 @@
 				0,
 				1,
 				2,
-				3,
-				4,
 				5,
 				6,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL2-static::@45bd952f1071c035638d"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "IMGUI::@6890427a1f51a3e7e1df"
@@ -200,13 +200,9 @@
 		{
 			"backtrace" : 2,
 			"id" : "core::@57760688d1f824db5d9c"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "SDL2-static::@45bd952f1071c035638d"
 		}
 	],
-	"id" : "maze::@c03cf923b3772045ee14",
+	"id" : "hideandseek::@dd13ac86f66045e3e8b3",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -331,12 +327,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "maze",
-	"nameOnDisk" : "maze.exe",
+	"name" : "hideandseek",
+	"nameOnDisk" : "hideandseek.exe",
 	"paths" : 
 	{
-		"build" : "examples/maze",
-		"source" : "examples/maze"
+		"build" : "examples/hideandseeksquared",
+		"source" : "examples/hideandseeksquared"
 	},
 	"sourceGroups" : 
 	[
@@ -347,30 +343,21 @@
 				0,
 				1,
 				2,
-				3,
-				4,
 				5,
 				6,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
+				3,
+				4
 			]
 		}
 	],
@@ -379,78 +366,29 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/maze/MazeGeneratorBase.cpp",
+			"path" : "examples/hideandseeksquared/Manager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/maze/Node.cpp",
+			"path" : "examples/hideandseeksquared/ShadowCastGridRecursive.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/maze/World.cpp",
+			"path" : "examples/hideandseeksquared/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/maze/generators/HuntAndKillExample.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/maze/generators/PrimExample.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/maze/generators/RecursiveBacktrackerExample.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/maze/main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/MazeGeneratorBase.h",
+			"path" : "examples/hideandseeksquared/Manager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/maze/Node.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/World.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/generators/HuntAndKillExample.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/generators/PrimExample.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/generators/RecursiveBacktrackerExample.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/maze/voronoi.hpp",
+			"path" : "examples/hideandseeksquared/ShadowCastGridRecursive.h",
 			"sourceGroupIndex" : 1
 		},
 		{

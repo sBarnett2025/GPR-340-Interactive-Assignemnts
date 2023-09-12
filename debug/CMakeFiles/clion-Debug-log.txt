@@ -1,15 +1,14 @@
 "C:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\samuel.barnett\Documents\repos\Mobagen -B C:\Users\samuel.barnett\Documents\repos\Mobagen\debug
--- Downloading CPM.cmake to C:/Users/samuel.barnett/Documents/repos/Mobagen/debug/cmake/CPM_0.38.2.cmake
--- The C compiler identification is MSVC 19.32.31329.0
--- The CXX compiler identification is MSVC 19.32.31329.0
+-- The C compiler identification is MSVC 19.37.32822.0
+-- The CXX compiler identification is MSVC 19.37.32822.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe - skipped
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe - skipped
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- MinGW Detected
@@ -21,7 +20,7 @@
 -- WIN32=1
 -- MSVC=1
 -- UBUNTU=
--- Compiler version: 19.32.31329.0
+-- Compiler version: 19.37.32822.0
 -- CMAKE_CXX_COMPILE_FEATURES: cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17;cxx_std_20;cxx_std_23
 -- CMAKE_C_COMPILE_FEATURES: c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert;c_std_17
 -- Detected support for C++23 standard
@@ -285,7 +284,7 @@
 -- 
 -- Platform: Windows-10.0.19045
 -- 64-bit:   TRUE
--- Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe
+-- Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe
 -- Revision: SDL-release-2.26.2-0-gf070c83a6
 -- 
 -- Subsystems:
@@ -412,12 +411,12 @@
 --  Build Static Library: ON
 --  Build Static Library with Position Independent Code: ON
 -- 
--- SDL2 TIME: 113s
+-- SDL2 TIME: 27s
 -- CPM: Adding package SDL_image@ (release-2.6.2)
 -- Configuring SDL2_image 2.6.2
--- SDL_image TIME: 35s
+-- SDL_image TIME: 0s
 -- CPM: Adding package IMGUI@ (docking)
--- IMGUI TIME: 7s
+-- IMGUI TIME: 2s
 -- CPM: Adding package doctest@2.4.8 (v2.4.8)
 -- CPM: Adding package Format.cmake@1.7.3 (v1.7.3)
 -- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
@@ -425,11 +424,11 @@
 -- Format.cmake: cmake-format and/or git not found, adding dummy targets
 -- CPM: Adding package GLM@ (master)
 -- GLM: Version 0.9.9.9
--- GLM TIME: 5s
+-- GLM TIME: 2s
 -- CPM: Adding package CPMLicenses.cmake@0.0.5 (v0.0.5)
 WARNING: no license files found for package "Format.cmake" in  .
 WARNING: no license files found for package "GLM" in  .
 wrote licenses to third_party.txt
--- Configuring done (171.1s)
+-- Configuring done (38.6s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/samuel.barnett/Documents/repos/Mobagen/debug

@@ -437,7 +437,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "CoreTests::@36f028580bb02cc8272a",
-					"jsonFile" : "target-CoreTests-Debug-a3f829787c82d6337f01.json",
+					"jsonFile" : "target-CoreTests-Debug-6f02b06a60e5f67ba0d9.json",
 					"name" : "CoreTests",
 					"projectIndex" : 0
 				},
@@ -472,7 +472,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "catchthecat::@1010855f606b4ba2dcb8",
-					"jsonFile" : "target-catchthecat-Debug-faedd33d19f87fda2b47.json",
+					"jsonFile" : "target-catchthecat-Debug-456f5153d06ae1ffed8a.json",
 					"name" : "catchthecat",
 					"projectIndex" : 0
 				},
@@ -493,14 +493,14 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "check-format::@a7f3a6eb0bd8f9ccc3e6",
-					"jsonFile" : "target-check-format-Debug-c4be57de25f11c241f4c.json",
+					"jsonFile" : "target-check-format-Debug-1036b77aef325761e937.json",
 					"name" : "check-format",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 10,
 					"id" : "chess::@796d514db5e48047cff6",
-					"jsonFile" : "target-chess-Debug-416a84c028edc2eb7706.json",
+					"jsonFile" : "target-chess-Debug-2e72588d1a53aefa9103.json",
 					"name" : "chess",
 					"projectIndex" : 0
 				},
@@ -521,7 +521,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "core::@57760688d1f824db5d9c",
-					"jsonFile" : "target-core-Debug-4674d87a1968b1503bfb.json",
+					"jsonFile" : "target-core-Debug-ce3dd7c439472a1db7a3.json",
 					"name" : "core",
 					"projectIndex" : 0
 				},
@@ -535,7 +535,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "editor::@ed37844f285895dce70e",
-					"jsonFile" : "target-editor-Debug-09356ff33fa8e28a12df.json",
+					"jsonFile" : "target-editor-Debug-ea63ab8bb7ab0222e91a.json",
 					"name" : "editor",
 					"projectIndex" : 0
 				},
@@ -563,42 +563,42 @@
 				{
 					"directoryIndex" : 11,
 					"id" : "flocking::@20618fd8b2c852a1ed99",
-					"jsonFile" : "target-flocking-Debug-4742f60c0eb800808a5b.json",
+					"jsonFile" : "target-flocking-Debug-dfcebe910618cbadc74c.json",
 					"name" : "flocking",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "format::@a7f3a6eb0bd8f9ccc3e6",
-					"jsonFile" : "target-format-Debug-72f889d3e279fd0e87b6.json",
+					"jsonFile" : "target-format-Debug-4d7becfb726f5dc1a056.json",
 					"name" : "format",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 12,
 					"id" : "hideandseek::@dd13ac86f66045e3e8b3",
-					"jsonFile" : "target-hideandseek-Debug-5d26df97ebab66249208.json",
+					"jsonFile" : "target-hideandseek-Debug-555b47a1342e26e36e4b.json",
 					"name" : "hideandseek",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 13,
 					"id" : "life::@80d7c129fe74961ae126",
-					"jsonFile" : "target-life-Debug-c53cbe4b2c5ee19e7fb0.json",
+					"jsonFile" : "target-life-Debug-f857b48afd17a4027901.json",
 					"name" : "life",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 14,
 					"id" : "maze::@c03cf923b3772045ee14",
-					"jsonFile" : "target-maze-Debug-8f1bd41bbc029113482a.json",
+					"jsonFile" : "target-maze-Debug-31565c39833f1840ced7.json",
 					"name" : "maze",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 15,
 					"id" : "scenario::@353741d804b74cebbf3d",
-					"jsonFile" : "target-scenario-Debug-f41d28dc72471b8f6cbf.json",
+					"jsonFile" : "target-scenario-Debug-20dd7d325ba6d474d79f.json",
 					"name" : "scenario",
 					"projectIndex" : 0
 				},

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/hideandseek.exe"
+			"path" : "bin/flocking.exe"
 		},
 		{
-			"path" : "bin/hideandseek.pdb"
+			"path" : "bin/flocking.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -22,7 +22,7 @@
 		],
 		"files" : 
 		[
-			"examples/hideandseeksquared/CMakeLists.txt",
+			"examples/flocking/CMakeLists.txt",
 			"CMakeLists.txt",
 			"core/CMakeLists.txt",
 			"debug/_deps/sdl2-src/CMakeLists.txt",
@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -102,7 +102,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 13,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -173,18 +173,31 @@
 				0,
 				1,
 				2,
+				3,
+				4,
 				5,
 				6,
 				7,
 				8,
 				9,
 				10,
-				11
+				11,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL2-static::@45bd952f1071c035638d"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "IMGUI::@6890427a1f51a3e7e1df"
@@ -196,13 +209,9 @@
 		{
 			"backtrace" : 2,
 			"id" : "core::@57760688d1f824db5d9c"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "SDL2-static::@45bd952f1071c035638d"
 		}
 	],
-	"id" : "hideandseek::@dd13ac86f66045e3e8b3",
+	"id" : "flocking::@20618fd8b2c852a1ed99",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -327,12 +336,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hideandseek",
-	"nameOnDisk" : "hideandseek.exe",
+	"name" : "flocking",
+	"nameOnDisk" : "flocking.exe",
 	"paths" : 
 	{
-		"build" : "examples/hideandseeksquared",
-		"source" : "examples/hideandseeksquared"
+		"build" : "examples/flocking",
+		"source" : "examples/flocking"
 	},
 	"sourceGroups" : 
 	[
@@ -343,21 +352,39 @@
 				0,
 				1,
 				2,
+				3,
+				4,
 				5,
 				6,
 				7,
 				8,
 				9,
 				10,
-				11
+				11,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3,
-				4
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22
 			]
 		}
 	],
@@ -366,29 +393,128 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/hideandseeksquared/Manager.cpp",
+			"path" : "examples/flocking/behaviours/AlignmentRule.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/hideandseeksquared/ShadowCastGridRecursive.cpp",
+			"path" : "examples/flocking/behaviours/BoundedAreaRule.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/hideandseeksquared/main.cpp",
+			"path" : "examples/flocking/behaviours/CohesionRule.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/hideandseeksquared/Manager.h",
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/behaviours/FlockingRule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/behaviours/MouseInfluenceRule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/behaviours/SeparationRule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/behaviours/WindRule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/gameobjects/Boid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/gameobjects/Pacticle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/gameobjects/World.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/flocking/utils/ImGuiExtra.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/AlignmentRule.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/hideandseeksquared/ShadowCastGridRecursive.h",
+			"path" : "examples/flocking/behaviours/BoundedAreaRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/CohesionRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/FlockingRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/MouseInfluenceRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/SeparationRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/behaviours/WindRule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/gameobjects/Boid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/gameobjects/Pacticle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/gameobjects/World.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/flocking/utils/ImGuiExtra.h",
 			"sourceGroupIndex" : 1
 		},
 		{

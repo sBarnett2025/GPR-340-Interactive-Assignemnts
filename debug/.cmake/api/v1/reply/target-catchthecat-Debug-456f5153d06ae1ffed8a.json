@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/flocking.exe"
+			"path" : "bin/catchthecat.exe"
 		},
 		{
-			"path" : "bin/flocking.pdb"
+			"path" : "bin/catchthecat.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -22,7 +22,7 @@
 		],
 		"files" : 
 		[
-			"examples/flocking/CMakeLists.txt",
+			"examples/catchthecat/CMakeLists.txt",
 			"CMakeLists.txt",
 			"core/CMakeLists.txt",
 			"debug/_deps/sdl2-src/CMakeLists.txt",
@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 31,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -102,7 +102,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 33,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -175,25 +175,22 @@
 				2,
 				3,
 				4,
-				5,
-				6,
-				7,
-				8,
 				9,
 				10,
 				11,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
+				12,
+				13,
+				14,
+				15
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL2-static::@45bd952f1071c035638d"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "IMGUI::@6890427a1f51a3e7e1df"
@@ -205,13 +202,9 @@
 		{
 			"backtrace" : 2,
 			"id" : "core::@57760688d1f824db5d9c"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "SDL2-static::@45bd952f1071c035638d"
 		}
 	],
-	"id" : "flocking::@20618fd8b2c852a1ed99",
+	"id" : "catchthecat::@1010855f606b4ba2dcb8",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -336,12 +329,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "flocking",
-	"nameOnDisk" : "flocking.exe",
+	"name" : "catchthecat",
+	"nameOnDisk" : "catchthecat.exe",
 	"paths" : 
 	{
-		"build" : "examples/flocking",
-		"source" : "examples/flocking"
+		"build" : "examples/catchthecat",
+		"source" : "examples/catchthecat"
 	},
 	"sourceGroups" : 
 	[
@@ -354,37 +347,23 @@
 				2,
 				3,
 				4,
-				5,
-				6,
-				7,
-				8,
 				9,
 				10,
 				11,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
+				12,
+				13,
+				14,
+				15
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -393,128 +372,51 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/AlignmentRule.cpp",
+			"path" : "examples/catchthecat/Agent.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/BoundedAreaRule.cpp",
+			"path" : "examples/catchthecat/Cat.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/CohesionRule.cpp",
+			"path" : "examples/catchthecat/Catcher.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/FlockingRule.cpp",
+			"path" : "examples/catchthecat/World.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/MouseInfluenceRule.cpp",
+			"path" : "examples/catchthecat/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/SeparationRule.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/behaviours/WindRule.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/gameobjects/Boid.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/gameobjects/Pacticle.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/gameobjects/World.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "examples/flocking/utils/ImGuiExtra.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/AlignmentRule.h",
+			"path" : "examples/catchthecat/Agent.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/BoundedAreaRule.h",
+			"path" : "examples/catchthecat/Cat.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/CohesionRule.h",
+			"path" : "examples/catchthecat/Catcher.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/FlockingRule.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/MouseInfluenceRule.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/SeparationRule.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/behaviours/WindRule.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/gameobjects/Boid.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/gameobjects/Pacticle.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/gameobjects/World.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "examples/flocking/utils/ImGuiExtra.h",
+			"path" : "examples/catchthecat/World.h",
 			"sourceGroupIndex" : 1
 		},
 		{

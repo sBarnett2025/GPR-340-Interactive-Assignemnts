@@ -19,13 +19,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 90,
+				"line" : 89,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 94,
+				"line" : 93,
 				"parent" : 0
 			}
 		]
@@ -34,15 +34,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "check-clang-format::@a7f3a6eb0bd8f9ccc3e6"
+			"id" : "cmake-format::@a7f3a6eb0bd8f9ccc3e6"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "check-cmake-format::@a7f3a6eb0bd8f9ccc3e6"
+			"id" : "clang-format::@a7f3a6eb0bd8f9ccc3e6"
 		}
 	],
-	"id" : "check-format::@a7f3a6eb0bd8f9ccc3e6",
-	"name" : "check-format",
+	"id" : "format::@a7f3a6eb0bd8f9ccc3e6",
+	"name" : "format",
 	"paths" : 
 	{
 		"build" : "_deps/format.cmake-build",
