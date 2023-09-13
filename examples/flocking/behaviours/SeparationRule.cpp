@@ -1,9 +1,11 @@
-#include "SeparationRule.h"
+  #include "SeparationRule.h"
 #include "../gameobjects/Boid.h"
 #include "../gameobjects/World.h"
 #include "engine/Engine.h"
 
 Vector2f SeparationRule::computeForce(const std::vector<Boid*>& neighborhood, Boid* boid) {
+  Vector2f sepatationForce = {0,0};
+
   int flockmates = 0;
   if (!neighborhood.empty())
   {
@@ -14,15 +16,16 @@ Vector2f SeparationRule::computeForce(const std::vector<Boid*>& neighborhood, Bo
       {
         flockmates++;
         auto hat = diff.normalized();
-        auto force = hat / distance;
-        
+        auto force = hat / (distance / desiredMinimalDistance);
+        sepatationForce += force;
+
       }
 
     }
   }
 
 
-
+  return sepatationForce;
 }
 
 bool SeparationRule::drawImguiRuleExtra() {
