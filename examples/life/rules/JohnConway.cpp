@@ -9,7 +9,6 @@ void JohnConway::Step(World& world)
   {
     for (int x = 0; x < world.SideSize(); x++)
     {
-      neighbors = 0;
       alive = world.Get({x, y});
       neighbors = CountNeighbors(world, {x, y});
 
@@ -36,9 +35,6 @@ void JohnConway::Step(World& world)
     }
   }
 
-
-
-
 }
 
 int JohnConway::CountNeighbors(World& world, Point2D point)
@@ -59,8 +55,6 @@ int JohnConway::CountNeighbors(World& world, Point2D point)
       }
     }
   }
-
-
 
   return count;
 }
