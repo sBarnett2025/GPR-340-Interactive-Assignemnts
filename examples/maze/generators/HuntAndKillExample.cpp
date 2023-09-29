@@ -4,6 +4,7 @@
 #include <climits>
 bool HuntAndKillExample::Step(World* w) {
 
+  return false;
 }
 void HuntAndKillExample::Clear(World* world) {
   visited.clear();

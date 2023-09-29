@@ -3,7 +3,83 @@
 #include "RecursiveBacktrackerExample.h"
 #include <climits>
 bool RecursiveBacktrackerExample::Step(World* w) {
+  bool value = false;
 
+  Point2D current = stack.front();
+
+  std::vector<Point2D> neighbors = getVisitables(w, current);
+
+  if (neighbors.empty())
+  {
+    stack.pop_back();
+  }
+  else
+  {
+    // mark top cell as visited
+    visited[current.x][current.y] = true;
+
+    // list visitable neighbors
+    std::vector<Point2D> neighbors;
+    if (w->GetNorth(Point2D(current.x, current.y)))
+    {
+      neighbors.push_back(Point2D(current.x, current.y + 1));
+    }
+    if (w->GetSouth(Point2D(current.x, current.y)))
+    {
+      neighbors.push_back(Point2D(current.x, current.y - 1));
+    }
+    if (w->GetEast(Point2D(current.x, current.y)))
+    {
+      neighbors.push_back(Point2D(current.x + 1, current.y));
+    }
+    if (w->GetWest(Point2D(current.x, current.y)))
+    {
+      neighbors.push_back(Point2D(current.x - 1, current.y));
+    }
+
+    // choose a neighbor
+    std::vector<int> rands;
+    int largest = 0;
+    for (int i = 0; i < neighbors.size(); i++)
+    {
+      rands[i] = w->GetRand();
+    }
+    for (int i = 1; i < rands.size(); i++)
+    {
+      if (rands[i] > rands[i-1])
+      {
+        largest = i;
+      }
+      else
+      {
+        largest = i-1;
+      }
+    }
+    Point2D chosen = neighbors[largest];
+
+    /*
+     *
+     * break wall
+     * 4 up
+     * horizontals[limits.x*point.y+point.x] = false;
+     *
+     *
+     *
+     */
+
+    // remove wall between current and chosen neighbor
+
+
+    // add neighbor
+
+
+  }
+
+
+
+
+
+  return value;
 }
 
 void RecursiveBacktrackerExample::Clear(World* world) {
