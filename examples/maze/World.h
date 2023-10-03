@@ -8,16 +8,6 @@
 #include "math/Point2D.h"
 #include <vector>
 
-struct Walls
-{
-  std::vector<bool> horizontal;
-  std::vector<bool> vertical;
-
-
-
-};
-
-
 class World : GameObject {
 private:
   int sideSize;
@@ -56,7 +46,8 @@ public:
   ~World();
   explicit World(Engine* pEngine, int size);
 
-  Walls walls;
+  std::vector<bool> horizontals;
+  std::vector<bool> verticals;
 
   Node GetNode(const Point2D& point);
   bool GetNorth(const Point2D& point);

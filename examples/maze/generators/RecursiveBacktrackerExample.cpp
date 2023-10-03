@@ -3,7 +3,12 @@
 #include "RecursiveBacktrackerExample.h"
 #include <climits>
 bool RecursiveBacktrackerExample::Step(World* w) {
-  bool value = false;
+  bool value;
+
+  if (stack.empty())
+  {
+    stack.push_back(randomStartPoint(w));
+  }
 
   Point2D current = stack.front();
 
@@ -18,68 +23,58 @@ bool RecursiveBacktrackerExample::Step(World* w) {
     // mark top cell as visited
     visited[current.x][current.y] = true;
 
-    // list visitable neighbors
-    std::vector<Point2D> neighbors;
-    if (w->GetNorth(Point2D(current.x, current.y)))
-    {
-      neighbors.push_back(Point2D(current.x, current.y + 1));
-    }
-    if (w->GetSouth(Point2D(current.x, current.y)))
-    {
-      neighbors.push_back(Point2D(current.x, current.y - 1));
-    }
-    if (w->GetEast(Point2D(current.x, current.y)))
-    {
-      neighbors.push_back(Point2D(current.x + 1, current.y));
-    }
-    if (w->GetWest(Point2D(current.x, current.y)))
-    {
-      neighbors.push_back(Point2D(current.x - 1, current.y));
-    }
-
     // choose a neighbor
-    std::vector<int> rands;
-    int largest = 0;
-    for (int i = 0; i < neighbors.size(); i++)
+    Point2D chosen;
+    if (neighbors.size() == 1)
     {
-      rands[i] = w->GetRand();
+      chosen = neighbors[0];
     }
-    for (int i = 1; i < rands.size(); i++)
+    else
     {
-      if (rands[i] > rands[i-1])
-      {
-        largest = i;
-      }
-      else
-      {
-        largest = i-1;
-      }
-    }
-    Point2D chosen = neighbors[largest];
+      int randomNum = w->GetRand();
+      int index = randomNum % neighbors.size();
 
-    /*
-     *
-     * break wall
-     * 4 up
-     * horizontals[limits.x*point.y+point.x] = false;
-     *
-     *
-     *
-     */
+      chosen = neighbors[index];
+    }
 
     // remove wall between current and chosen neighbor
 
+    if (chosen.y == current.y-1) // North
+    {
+      w->horizontals[w->GetSize()*current.y+current.x] = false;
+    }
+    else if (chosen.x == current.x+1) // East
+    {
+      w->horizontals[w->GetSize()*current.y+current.x] = false;
+    }
+    else if (chosen.y == current.y+1) // South
+    {
+      w->horizontals[w->GetSize()*current.y+current.x] = false;
+    }
+    else if (chosen.x == current.x-1)  // West
+    {
+      w->horizontals[w->GetSize()*current.y+current.x] = false;
+    }
+    else
+    {
+      std::cout << ":2" << std::endl;
+    }
+
 
     // add neighbor
-
+    stack.push_back(chosen);
 
   }
 
+  if (stack.empty())
+  {
+    return false;
+  }
+  else
+  {
+    return true;
+  }
 
-
-
-
-  return value;
 }
 
 void RecursiveBacktrackerExample::Clear(World* world) {
@@ -106,6 +101,24 @@ Point2D RecursiveBacktrackerExample::randomStartPoint(World* world) {
 std::vector<Point2D> RecursiveBacktrackerExample::getVisitables(World* w, const Point2D& p) {
   auto sideOver2 = w->GetSize() / 2;
   std::vector<Point2D> visitables;
+
+  if (w->GetNorth(p) && !visited[p.x][p.y-1])
+  {
+    visitables.emplace_back(Point2D(p.x, p.y-1));
+  }
+  if (w->GetEast(p) && !visited[p.x+1][p.y])
+  {
+    visitables.emplace_back(Point2D(p.x+1, p.y));
+  }
+  if (w->GetSouth(p) && !visited[p.x][p.y+1])
+  {
+    visitables.emplace_back(Point2D(p.x, p.y+1));
+  }
+  if (w->GetWest(p) && !visited[p.x-1][p.y])
+  {
+    visitables.emplace_back(Point2D(p.x-1, p.y));
+  }
+
 
   return visitables;
 }
