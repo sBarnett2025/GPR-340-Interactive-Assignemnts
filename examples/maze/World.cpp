@@ -12,11 +12,28 @@ World::World(Engine* pEngine, int size = 11) : GameObject(pEngine), sideSize(siz
 
   horizontals.reserve(sideSize+1*sideSize+1);
   verticals.reserve(sideSize+1*sideSize+1);
+
+  for (int i = 0; i < sideSize+1*sideSize+1; i++)
+  {
+    horizontals[i] = true;
+    verticals[i] = true;
+  }
+
 }
 
 World::~World() {
   for (auto g : generators) delete g;
   generators.clear();
+}
+
+bool World::PointValid(const Point2D& p)
+{
+  int half = sideSize / 2;
+  if (p.x < -half || p.x > half || p.y < -half || p.y > half)
+  {
+    return false;
+  }
+  return true;
 }
 
 Node World::GetNode(const Point2D& point) {

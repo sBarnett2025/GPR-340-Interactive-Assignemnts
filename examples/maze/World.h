@@ -49,6 +49,7 @@ public:
   std::vector<bool> horizontals;
   std::vector<bool> verticals;
 
+  bool PointValid(const Point2D& p);
   Node GetNode(const Point2D& point);
   bool GetNorth(const Point2D& point);
   bool GetEast(const Point2D& point);
