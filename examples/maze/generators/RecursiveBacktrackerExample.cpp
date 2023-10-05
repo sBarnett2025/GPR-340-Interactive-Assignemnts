@@ -9,7 +9,7 @@ bool RecursiveBacktrackerExample::Step(World* w) {
     stack.push_back(randomStartPoint(w));
   }
   Point2D current = stack.back();
-
+  visited[current.x][current.y] = true;
   std::vector<Point2D> neighbors = getVisitables(w, current);
 
   if (neighbors.empty())
@@ -19,9 +19,6 @@ bool RecursiveBacktrackerExample::Step(World* w) {
   }
   else
   {
-    // mark top cell as visited
-    visited[current.x][current.y] = true;
-
     // choose a neighbor
     Point2D chosen;
     if (neighbors.size() == 1)
