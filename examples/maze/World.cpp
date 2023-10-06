@@ -10,13 +10,13 @@ World::World(Engine* pEngine, int size = 11) : GameObject(pEngine), sideSize(siz
   generators.push_back(new RecursiveBacktrackerExample());
   generators.push_back(new HuntAndKillExample());
 
-  horizontals.reserve(sideSize+1*sideSize+1);
-  verticals.reserve(sideSize+1*sideSize+1);
+  //horizontals((sideSize+1)*(sideSize+1));
+  //verticals.reserve((sideSize+1)*(sideSize+1));
 
-  for (int i = 0; i < sideSize+1*sideSize+1; i++)
+  for (int i = 0; i < (sideSize+1)*(sideSize+1); i++)
   {
-    horizontals[i] = true;
-    verticals[i] = true;
+    horizontals.push_back(true);
+    verticals.push_back(true);
   }
 
 }
