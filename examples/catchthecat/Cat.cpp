@@ -86,14 +86,18 @@ Point2D Cat::Move(World* world)
   int lowestValue = 999999;
   for (int i = 0; i < neighbors.size(); i++)
   {
-    std::cout << neighbors[i].x << "," << neighbors[i].y << std::endl;
+    if (world->catWinsOnSpace(neighbors[i]) && !world->getContent(neighbors[i]))
+    {
+      return neighbors[i];
+    }
+    //std::cout << neighbors[i].x << "," << neighbors[i].y << std::endl;
     if (distanceToEdge[neighbors[i]] < lowestValue)
     {
       bestPoint = neighbors[i];
       lowestValue = distanceToEdge[bestPoint];
     }
   }
-  std::cout << "------------------" << std::endl;
+  //std::cout << "------------------" << std::endl;
   //std::cout << lowestValue << std::endl;
   //std::cout << bestPoint.x << "," << bestPoint.y << std::endl;
   return bestPoint;

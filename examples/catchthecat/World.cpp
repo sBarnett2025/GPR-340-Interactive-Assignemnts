@@ -164,7 +164,9 @@ void World::OnGui(ImGuiContext* context) {
     ImGuiWindowFlags flags = ImGuiWindowFlags_NoMove | ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoSavedSettings;
     ImGui::Begin("Game Over", nullptr, flags);
     if (ImGui::Button("OK", ImVec2(200, 0)))
+    {
       clearWorld();
+    }
     ImGui::End();
   }
 }
