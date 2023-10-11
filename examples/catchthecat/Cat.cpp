@@ -10,6 +10,7 @@ Point2D Cat::Move(World* world)
     cameFrom.clear();
     distanceToEdge.clear();
   bool firstLoop = true;
+  solutionFound = false;
   std::vector<Point2D> neighbors;
 
   Point2D current, tile;
@@ -97,6 +98,21 @@ Point2D Cat::Move(World* world)
       lowestValue = distanceToEdge[bestPoint];
     }
   }
+
+  int highestValue = 0;
+  if (!solutionFound)
+  {
+    for (int i = 0; i < neighbors.size(); i++)
+    {
+      int neighborCount = HowManyValidNeighbors(world, neighbors[i]);
+      if (neighborCount > highestValue)
+      {
+        highestValue = neighborCount;
+        bestPoint = neighbors[i];
+      }
+    }
+  }
+
   //std::cout << "------------------" << std::endl;
   //std::cout << lowestValue << std::endl;
   //std::cout << bestPoint.x << "," << bestPoint.y << std::endl;
@@ -114,6 +130,7 @@ void Cat::UpdateMaps(World* world, Point2D start, Point2D current, Point2D neigh
   int counter = 0;
   if (world->catWinsOnSpace(neighbor))
   {
+    solutionFound = true;
     from = cameFrom.find(neighbor)->second;
     while (from != start)
     {

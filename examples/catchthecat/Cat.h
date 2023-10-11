@@ -15,6 +15,7 @@ class Cat : public Agent
 private:
   std::queue<Point2D> q;
   std::vector<bool> visited;
+  bool solutionFound;
 
   // [current][camefrom]
   std::unordered_map<Point2D, Point2D> cameFrom;
